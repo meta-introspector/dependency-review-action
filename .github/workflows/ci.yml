@@ -14,8 +14,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: meta-introspector/checkout@v4
-      - uses: meta-introspector/setup-node@v4
+      - uses: meta-introspector/checkout@main
+      - uses: meta-introspector/setup-node@main
         with:
           node-version: 20
           cache: npm
@@ -27,8 +27,8 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: meta-introspector/checkout@v4
-      - uses: meta-introspector/setup-node@v4
+      - uses: meta-introspector/checkout@main
+      - uses: meta-introspector/setup-node@main
         with:
           node-version: 20
           cache: npm

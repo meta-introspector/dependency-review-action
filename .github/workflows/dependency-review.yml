@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout Repository'
-        uses: meta-introspector/checkout@v4
+        uses: meta-introspector/checkout@main
       - name: Dependency Review
         uses: meta-introspector/dependency-review-action@main
